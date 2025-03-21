@@ -4,22 +4,20 @@ function HomePage() {
     return (
         <>
             <section id='nav_sec'>
+                <div className='nav-sub'>
+                    <h1 className='title'><marquee scrollamount="15" direction="right">E-Commerce Website</marquee></h1>
+                </div>
                 <nav className='navbar'>
-                    <img src={logo} className='logo-img' alt="Logo" />
-                    <ul>
-                        <a href=""><li>Clothing</li></a>
-                        <a href=""><li>Electronics</li></a>
-                        <a href=""><li>Accessories</li></a>
-                        <a href=""><li>HomeGoods</li></a>
-                        <a href=""><li>Support</li></a>
-                    </ul>
+                    <div className='title-container'>
+                        <img src={logo} className='logo-img' alt="Logo" />
+                        <input type="text" className='bar' placeholder='Find..' />
+                    </div>
                 </nav>
             </section>
             <section id='main-sec'>
 
 
             </section>
-
         </>
 
     )
