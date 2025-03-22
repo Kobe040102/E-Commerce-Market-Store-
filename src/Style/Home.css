@@ -6,7 +6,32 @@
 #nav_sec {
     overflow: hidden;
     background-color:#1A1F36 ;
-    
+}
+
+.catergories-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.catergories {
+    display:flex;
+    gap: 40px;
+    list-style: none;
+    padding-right: 40%;
+    margin:0;
+}
+
+.catergories a {
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+
+.icon {
+    height:25px;
+    float: right;
 }
 
 .nav-sub {
@@ -14,20 +39,71 @@
     border: 3px solid black;
 }
 
-.title {
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.logo-img {
+    height: 70px;
 }
 
 .title-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
 }
 
 .bar {
     border-radius: 50px;
     height: 30px;
+    width: 220px;
 }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+}
+
+.right-items {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-items h3 {
+    margin: 0;
+    color:white;
+    font-size: 14px;
+    list-style: none;
+}
+
+.right-item a {
+    text-decoration: none;
+}
+
+.right-item:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.title h1 {
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+
+
+
