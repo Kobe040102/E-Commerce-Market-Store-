@@ -64,7 +64,7 @@ function HomePage() {
                         <li>
                             <img src={purse} className='product' alt="purse" />
                             <h1>Gucci Bag</h1>
-                            <h2>$850.00</h2>
+                            <h2>$850.00</h2><h2>USED</h2>
                         </li>
                     </ul>
 
