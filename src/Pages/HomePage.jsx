@@ -2,6 +2,9 @@ import '../Style/Home.css';
 import logo from '../Images/Logo.png'
 import cart from '../Images/cart.png'
 import profile from '../Images/user.png';
+import shirt from '../Images/Best_Shirt.jpg';
+import macbook from '../Images/MacBook.jpg';
+import purse from '../Images/Purse.jpg';
 function HomePage() {
     return (
         <>
@@ -45,7 +48,29 @@ function HomePage() {
                 </nav>
             </section>
             <section id='main-sec'>
-            
+                <div className='BestSeller-container'>
+                    <h1>Best Sellers</h1>
+                    <ul className='best-proc'>
+                        <li>
+                            <img src={macbook} className='product' alt="computer" />
+                            <h1>MacBook</h1>
+                            <h2>$1,150.00</h2>
+                        </li>
+                        <li>
+                            <img src={shirt} className='product' alt="shirt" />
+                            <h1>T-Shirt</h1>
+                            <h2>$29.99</h2>
+                        </li>
+                        <li>
+                            <img src={purse} className='product' alt="purse" />
+                            <h1>Gucci Bag</h1>
+                            <h2>$850.00</h2>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <section id="footer">
 
             </section>
         </>

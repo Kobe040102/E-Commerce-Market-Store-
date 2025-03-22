@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
 }
-
+/* nav-sec */
 #nav_sec {
     overflow: hidden;
     background-color:#1A1F36 ;
@@ -12,7 +12,7 @@
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  margin-right: 40px;
+  margin-left: 150px;
 }
 
 .catergories {
@@ -104,6 +104,39 @@
     font-style: italic;
     font-size: 35px;
 }
+
+/* main-sec */
+
+#main-sec {
+    overflow: hidden;
+    background-color:#4C6A92 ;
+}
+
+.BestSeller-container h1 {
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    margin-top:25px;
+}
+
+.best-proc {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    margin-right:50px;
+}
+
+.product {
+    height: 35vh;
+}
+
+
+
+
 
 
 
