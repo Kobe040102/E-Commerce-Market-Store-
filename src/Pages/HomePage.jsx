@@ -49,24 +49,36 @@ function HomePage() {
             </section>
             <section id='main-sec'>
                 <div className='BestSeller-container'>
-                    <h1>Best Sellers</h1>
+                    <h1 className='best-title'>Best Sellers</h1>
                     <ul className='best-proc'>
                         <li>
                             <img src={macbook} className='product' alt="computer" />
-                            <h1>MacBook</h1>
-                            <h2>$1,150.00</h2>
+                            <h1 className='products'>MacBook</h1>
+                            <h2 className='prices'>$1,150.00</h2>
+                            <div className='btn-container'>
+                                <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                         <li>
                             <img src={shirt} className='product' alt="shirt" />
-                            <h1>T-Shirt</h1>
-                            <h2>$29.99</h2>
+                            <h1 className='products'>T-Shirt</h1>
+                            <h2 className='prices'>$29.99</h2>
+                            <div className='btn-container'>
+                                <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                         <li>
                             <img src={purse} className='product' alt="purse" />
-                            <h1>Gucci Bag</h1>
-                            <h2>$850.00</h2><h2>USED</h2>
+                            <h1 className='products'>Gucci Bag</h1>
+                            <h2 className='prices'>$850.00</h2>
+                            <div className='btn-container'>
+                                <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                     </ul>
+                </div>
+                <div className='Clothing-container'>
+                    <h1 className='clothing-title'>Clothing Sales</h1>
 
                 </div>
             </section>

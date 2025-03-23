@@ -112,15 +112,6 @@
     background-color:#4C6A92 ;
 }
 
-.BestSeller-container h1 {
-    font-size: 40px;
-    text-align: center;
-    color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline;
-    margin-top:25px;
-}
-
 .best-proc {
     list-style: none;
     display: flex;
@@ -130,9 +121,68 @@
     margin-right:50px;
 }
 
+.prices{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-top:10px;
+}
+
 .product {
+    border: 2px solid black;
     height: 35vh;
 }
+
+.best-title {
+    text-align: center;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.products {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    margin-top:25px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Add-btn {
+    background-color: #3498DB;
+    border-radius: 25px;
+}
+
+.cart-ad {
+    margin: 10px;
+}
+
+.clothing-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10vh;
+    
+}
+
+.Clothing-container {
+    margin: 0;
+}
+
+
+
+
 
 
 
