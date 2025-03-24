@@ -1,7 +1,10 @@
 .gallery {
+    border: 3px solid black;
+    border-radius: 5px;
     width: 900px;
     display: flex;
     overflow: scroll;
+    background-color: #1A1F36;
 }
 
 .gallery div {
@@ -14,8 +17,11 @@
 }
 
 .gallery div img{
+    height: 300px;
     width: 100%;
     border: 2px solid black;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .gallery::-webkit-scrollbar{

@@ -8,6 +8,11 @@
 #main-sec {
     overflow: hidden;
     background-color:#4C6A92 ;
+    
+}
+
+.BestSeller-container {
+    margin-top: 12vh;
 }
 
 .best-proc {

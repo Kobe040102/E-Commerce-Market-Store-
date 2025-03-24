@@ -2,6 +2,9 @@
 #nav_sec {
     overflow: hidden;
     background-color:#1A1F36 ;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
 
 .catergories-container {
