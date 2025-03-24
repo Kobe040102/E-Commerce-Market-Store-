@@ -22,15 +22,29 @@
     border: 2px solid black;
     object-fit: cover;
     border-radius: 8px;
+    transition: transform 0.5s;
 }
 
 .gallery::-webkit-scrollbar{
-    display:none;
+    display: none;
 }
 
 .gallery-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% auto;
+    margin: 4% auto;
+}
+
+.gallery div img:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#nextarrow {
+    height:150px;
+}
+
+#backarrow {
+    height: 150px;
 }
