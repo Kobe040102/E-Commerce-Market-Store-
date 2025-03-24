@@ -3,7 +3,7 @@ import shirt from '../Images/Best_Shirt.jpg';
 import macbook from '../Images/MacBook.jpg';
 import purse from '../Images/Purse.jpg';
 import Navbar from '../Components/Navbar';
-
+import Scroller from '../Components/Scroller';
 
 function HomePage() {
     return (
@@ -42,7 +42,7 @@ function HomePage() {
                 <div className='Clothing-container'>
                     <h1 className='clothing-title'>Clothing Sales</h1>
                     <div className='scoll-container'>
-
+                    <Scroller />
                     </div>
                 </div>
             </section>
