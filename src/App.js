@@ -4,7 +4,6 @@ import ClothingPage  from './Pages/ClothingPage';
 import AccessoriesPage from './Pages/AccessoriesPage';
 import ElectronicsPage from './Pages/ElectronicsPage';
 import HomeGoodsPage from './Pages/HomeGoodsPage';
-import CustomerSupportPage from './Pages/CustomerSupportPage';
 function App() {
   return(
   <Router>
@@ -15,7 +14,6 @@ function App() {
       <Route path="/AccessoriesPage" element={<AccessoriesPage />} />
       <Route path="/ElectronicsPage" element={<ElectronicsPage />} />
       <Route path="/HomeGoodsPage" element={<HomeGoodsPage />} />
-      <Route path="/CustomerSupportPage" element={<CustomerSupportPage />} />
     </Routes>
   </Router>
   )
