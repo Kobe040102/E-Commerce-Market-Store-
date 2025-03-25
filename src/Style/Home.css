@@ -78,11 +78,24 @@
     margin-top: 10vh;
     
 }
-
 .Clothing-container {
     margin: 0;
 }
 
+.click-info {
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.click-info:hover{
+    text-decoration: underline;
+}
+
+.clicking {
+    text-decoration: none;
+}
 
 
 

@@ -40,7 +40,6 @@ function Scroller() {
         if (prevarrow) prevarrow.addEventListener("click", handlePrevClick);
         if (forwardarrow) forwardarrow.addEventListener("click", handleNextClick);
 
-        // Cleanup event listeners
         return () => {
             scrollContainer.removeEventListener("wheel", handleWheelScroll);
             if (prevarrow) prevarrow.removeEventListener("click", handlePrevClick);
@@ -53,16 +52,31 @@ function Scroller() {
         <div className='gallery-wrap'>
             <img src={backarrow} ref={prevArrowRef} id='backarrow' alt="previous" />
             <div className="gallery" ref={galleryRef}>
-                <div>
+                <div className='item'>
                     <img src={pic1} alt="pic1" />
+                    <p>$34.00</p>
+                </div>
+                <div className='item'>
                     <img src={pic2} alt="pic2" />
+                    <p>$10.50</p>
+                </div>
+                <div className='item'>
                     <img src={pic3} alt="pic3" />
+                    <p>$25.00</p>
                 </div>
-                <div>
+                <div className='item'>
                     <img src={pic4} alt="pic4" />
-                    <img src={pic5} alt="pic5" />
-                    <img src={pic6} alt="pic6" />
+                    <p>$14.99</p>
                 </div>
+                <div className='item'>
+                    <img src={pic5} alt="pic5" />
+                    <p>$35.60</p>
+                </div>
+                <div className='item'>
+                    <img src={pic6} alt="pic6" />
+                    <p>$30.25</p>
+                </div>
+
             </div>
             <img src={nextarrow} ref={nextArrowRef} id='nextarrow' alt="next" />
         </div>
