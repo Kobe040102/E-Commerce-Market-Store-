@@ -58,10 +58,15 @@ function HomePage() {
                         <li><h3>Shopping Guide</h3></li>
                         <li>
                             <h3 className='social-title'>Social Media</h3>
-                            <p>Instagram</p><img src= {insta} className='social-icon' alt="insta" />
-                            <p>Facebook</p> <img src= {facebook} className='social-icon' alt="facebook" />
-                            <p>X</p> <img src= {twitter} className='social-icon' alt="twitter" />
-
+                            <div className='icon1'>
+                                <p>Instagram</p><img src={insta} className='social-icon' alt="insta" />
+                            </div>
+                            <div className='icon2'>
+                                <p>Facebook</p> <img src={facebook} className='social-icon' alt="facebook" />
+                            </div>
+                            <div className='icon3'>
+                                <p>X</p> <img src={twitter} className='social-icon' alt="twitter" />
+                            </div>
                         </li>
                     </ul>
                 </div>
