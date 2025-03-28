@@ -4,7 +4,6 @@
 }
 
 /* main-sec */
-
 #main-sec {
     overflow: hidden;
     background-color:#4C6A92 ;
@@ -95,6 +94,31 @@
 
 .clicking {
     text-decoration: none;
+}
+
+/* Footer */
+#footer {
+    overflow: hidden;
+    background-color: #1A1F36;
+}
+
+.footer-links {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.footer-container {
+    margin-top: 40px;
+}
+
+.social-icon {
+    
 }
 
 

@@ -2,6 +2,9 @@ import '../Style/Home.css';
 import shirt from '../Images/Best_Shirt.jpg';
 import macbook from '../Images/MacBook.jpg';
 import purse from '../Images/Purse.jpg';
+import insta from '../Images/Icons/instagram.png';
+import facebook from '../Images/Icons/facebook.png';
+import twitter from '../Images/Icons/twitter.png';
 import Navbar from '../Components/Navbar';
 import Scroller from '../Components/Scroller';
 
@@ -42,13 +45,26 @@ function HomePage() {
                 <div className='Clothing-container'>
                     <h1 className='clothing-title'>Check Our Clothing</h1>
                     <div className='scoll-container'>
-                    <Scroller />
-                    <a href="/ClothingPage" className='clicking'><h1 className='click-info'>Click for more</h1></a>
+                        <Scroller />
+                        <a href="/ClothingPage" className='clicking'><h1 className='click-info'>Click for more</h1></a>
                     </div>
                 </div>
             </section>
             <section id="footer">
+                <div className='footer-container'>
+                    <ul className='footer-links'>
+                        <li><h3>Contact us</h3></li>
+                        <li><h3>Acount Services</h3></li>
+                        <li><h3>Shopping Guide</h3></li>
+                        <li>
+                            <h3 className='social-title'>Social Media</h3>
+                            <p>Instagram</p><img src= {insta} className='social-icon' alt="insta" />
+                            <p>Facebook</p> <img src= {facebook} className='social-icon' alt="facebook" />
+                            <p>X</p> <img src= {twitter} className='social-icon' alt="twitter" />
 
+                        </li>
+                    </ul>
+                </div>
             </section>
         </>
 
