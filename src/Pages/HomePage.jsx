@@ -5,6 +5,9 @@ import purse from '../Images/Purse.jpg';
 import insta from '../Images/Icons/instagram.png';
 import facebook from '../Images/Icons/facebook.png';
 import twitter from '../Images/Icons/twitter.png';
+import Ipad from '../Images/Electronics/Iphone.jpg';
+import Iphone from '../Images/Electronics/Ipad.jpg';
+import PS5 from '../Images/Electronics/PS5.jpg';
 import Navbar from '../Components/Navbar';
 import Scroller from '../Components/Scroller';
 
@@ -51,8 +54,21 @@ function HomePage() {
                 </div>
                 <div className='new-release-container'>
                     <h1 className='best-title'>
-                        New Electronics
+                        New Electronics In Stock
                     </h1>
+                </div>
+                <div className='newTech'>
+                    <ul className='device-container'>
+                        <li>
+                            <img src= {Ipad} alt="Ipad" />
+                        </li>
+                        <li>
+                            <img src={Iphone} alt="Iphone" />
+                        </li>
+                        <li>
+                            <img src={PS5} alt="PS5" />
+                        </li>
+                    </ul>
                 </div>
             </section>
             <section id="footer">
@@ -61,13 +77,13 @@ function HomePage() {
                         <li>
                             <h3 className='social-title'>Contact us</h3>
                             <div className='icon1'>
-                            <p>(888)-xxx-2345</p>
+                                <p>(888)-xxx-2345</p>
                             </div>
                             <div className='icon1'>
-                            <p>support@hexacart.com</p>
+                                <p>support@hexacart.com</p>
                             </div>
                             <div className='icon1'>
-                            <p>Mon - Fri, 9AM - 5 AM PST</p>
+                                <p>Mon - Fri, 9AM - 5 AM PST</p>
                             </div>
                         </li>
                         <li>
@@ -76,22 +92,22 @@ function HomePage() {
                                 <p>Sign In/Register</p>
                             </div>
                             <div className='icon1'>
-                            <p>Order History</p>
+                                <p>Order History</p>
                             </div>
                             <div className='icon1'>
-                            <p>Saved Items / Wishlist</p>
+                                <p>Saved Items / Wishlist</p>
                             </div>
                         </li>
                         <li>
                             <h3 className='social-title'>Shopping Guide</h3>
                             <div className='icon1'>
-                            <p>Payment & Checkout</p>
+                                <p>Payment & Checkout</p>
                             </div>
                             <div className='icon1'>
-                            <p>Returns & Refunds</p>
+                                <p>Returns & Refunds</p>
                             </div>
                             <div className='icon1'>
-                            <p>FAQs</p>
+                                <p>FAQs</p>
                             </div>
                         </li>
                         <li>
