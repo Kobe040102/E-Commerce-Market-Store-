@@ -46,7 +46,7 @@ function HomePage() {
                     </ul>
                 </div>
                 <div className='Clothing-container'>
-                    <h1 className='best-title'>Check Our Clothing</h1>
+                    <h1 className='best-title'>Check Our Popular Clothing</h1>
                     <div className='scoll-container'>
                         <Scroller />
                         <a href="/ClothingPage" className='clicking'><h1 className='click-info'>Click for more</h1></a>
