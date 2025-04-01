@@ -5,9 +5,9 @@ import purse from '../Images/Purse.jpg';
 import insta from '../Images/Icons/instagram.png';
 import facebook from '../Images/Icons/facebook.png';
 import twitter from '../Images/Icons/twitter.png';
-import Ipad from '../Images/Electronics/Iphone.jpg';
-import Iphone from '../Images/Electronics/Ipad.jpg';
-import PS5 from '../Images/Electronics/PS5.jpg';
+import IPhone from '../Images/Electronics/Iphone.jpg';
+import Ipad from '../Images/Electronics/Ipad.jpg';
+import PS5 from '../Images/Electronics/Console.jpg';
 import Navbar from '../Components/Navbar';
 import Scroller from '../Components/Scroller';
 
@@ -60,16 +60,32 @@ function HomePage() {
                 <div className='newTech'>
                     <ul className='device-container'>
                         <li>
-                            <img src= {Ipad} alt="Ipad" />
+                            <img src= {IPhone} alt="Ipad" />
+                            <h1 className='products'>IPhone</h1>
+                            <h2 className='prices'>$750.00</h2>
+                            <div className='btn-container'>
+                            <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                         <li>
-                            <img src={Iphone} alt="Iphone" />
+                            <img src={Ipad} alt="Iphone" />
+                            <h1 className='products'>IPad</h1>
+                            <h2 className='prices'>$1,050.45</h2>
+                            <div className='btn-container'>
+                            <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                         <li>
                             <img src={PS5} alt="PS5" />
+                            <h1 className='products'>PS5</h1>
+                            <h2 className='prices'>$1,760.95</h2>
+                            <div className='btn-container'>
+                            <button className='Add-btn'><h1 className='cart-ad'>Add to cart</h1></button>
+                            </div>
                         </li>
                     </ul>
                 </div>
+                    
             </section>
             <section id="footer">
                 <div className='footer-container'>

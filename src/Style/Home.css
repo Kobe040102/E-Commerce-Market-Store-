@@ -97,6 +97,10 @@
     text-decoration: none;
 }
 
+.newTech {
+    margin-bottom: 7%;
+}
+
 .device-container {
     display: flex;
     justify-content: center;
