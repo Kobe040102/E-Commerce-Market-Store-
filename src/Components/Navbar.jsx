@@ -11,22 +11,24 @@ function Nav() {
                     <div className='title-container'>
                         <ul className='nav-list'>
                             <div className='title'>
+                                <a href='/HomePage' className='Home-link'>
                                 <h1>HexaCart</h1>
                                 <li><img src={logo} className='logo-img' alt="Logo" /></li>
+                                </a>
                             </div>
                             <div className='catergories-container'>
                                 <ul className='catergories'>
                                     <li>
-                                        <a href="">Clothing</a>
+                                        <a href="/ClothingPage">Clothing</a>
                                     </li>
                                     <li>
-                                        <a href="">Electronics</a>
+                                        <a href="/AccessoriesPage">Electronics</a>
                                     </li>
                                     <li>
-                                        <a href="">Accessories</a>
+                                        <a href="/ElectronicsPage">Accessories</a>
                                     </li>
                                     <li>
-                                        <a href="">HomeGoods</a>
+                                        <a href="/HomeGoodsPage">HomeGoods</a>
                                     </li>
                                 </ul>
                             </div>

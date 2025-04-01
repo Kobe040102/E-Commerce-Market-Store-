@@ -126,7 +126,6 @@ function HomePage() {
                 </div>
             </section>
         </>
-
     )
 }
 
