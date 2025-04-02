@@ -6,7 +6,7 @@ function Electronics() {
             <Navbar />
             <section id="main">
             <div className='Clothing-container'>
-                    <h1 className='Clothing-title'>Clothing</h1>
+                    <h1 className='Clothing-title'>Electronics</h1>
                 <div className='Shirt-container'>
                         <h1 className='proc-title'>Shirts</h1>
                     </div>

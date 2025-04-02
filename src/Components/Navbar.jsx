@@ -22,10 +22,10 @@ function Nav() {
                                         <a href="/ClothingPage">Clothing</a>
                                     </li>
                                     <li>
-                                        <a href="/AccessoriesPage">Electronics</a>
+                                        <a href="/ElectronicsPage">Electronics</a>
                                     </li>
                                     <li>
-                                        <a href="/ElectronicsPage">Accessories</a>
+                                        <a href="/AccessoriesPage">Accessories</a>
                                     </li>
                                     <li>
                                         <a href="/HomeGoodsPage">HomeGoods</a>
