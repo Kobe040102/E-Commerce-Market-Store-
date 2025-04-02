@@ -23,7 +23,6 @@ function Clothes() {
                 </div>
             </section>
             <Footer />
-            
         </>
     )
 }
