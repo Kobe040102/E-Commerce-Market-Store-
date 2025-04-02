@@ -3,6 +3,13 @@ function HomeGoods() {
     return(
         <>
             <Navbar />
+            <section id="main">
+            
+            </section>
+                
+            <section id="footer">
+
+            </section>
         </>
     )
 }

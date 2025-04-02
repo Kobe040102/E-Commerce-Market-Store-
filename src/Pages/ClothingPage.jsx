@@ -3,6 +3,7 @@ function Clothes() {
     return(
         <>
         <Navbar />
+            
         </>
     )
 }
