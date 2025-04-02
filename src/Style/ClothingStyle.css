@@ -7,3 +7,24 @@
     background-color: #4C6A92;
     overflow: hidden;
 }
+
+.Clothing-container {
+    margin-top: 12vh;
+}
+
+.Clothing-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+}
+
+.proc-title {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10vh;
+    font-size: 30px;
+    text-align:center;
+    text-decoration: underline;
+}
