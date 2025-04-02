@@ -5,9 +5,8 @@ function HomeGoods() {
         <>
             <Navbar />
             <section id="main">
-            
-            </section>
                 
+            </section>
             <Footer />
         </>
     )
