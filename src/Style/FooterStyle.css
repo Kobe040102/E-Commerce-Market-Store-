@@ -1,0 +1,38 @@
+#footer {
+    overflow: hidden;
+    background-color: #1A1F36;
+}
+
+.footer-links {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.footer-container {
+    margin-top: 40px;
+}
+
+.social-title {
+    text-decoration: underline;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    height: 24px;
+}
+
+.num p {
+    margin-right: 50px;
+}

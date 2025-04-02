@@ -1,4 +1,5 @@
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 function HomeGoods() {
     return(
         <>
@@ -7,9 +8,7 @@ function HomeGoods() {
             
             </section>
                 
-            <section id="footer">
-
-            </section>
+            <Footer />
         </>
     )
 }
