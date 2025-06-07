@@ -11,7 +11,7 @@ function Clothes() {
                     <div className='Shirt-container'>
                         <h1 className='proc-title'>Shirts</h1>
                         <div className='img-container'>
-
+                            
                         </div>
                     </div>
                     <div className='Pants-container'>

@@ -12,7 +12,10 @@
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  margin-left: 150px;
+}
+
+.catergories li :hover {
+    text-decoration: underline;
 }
 
 .catergories {

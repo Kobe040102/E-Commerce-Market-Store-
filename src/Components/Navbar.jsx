@@ -28,9 +28,6 @@ function Nav() {
                                     <li>
                                         <Link to="/AccessoriesPage">Accessories</Link>
                                     </li>
-                                    <li>
-                                        <Link to="/HomeGoodsPage">HomeGoods</Link>
-                                    </li>
                                 </ul>
                             </div>
                             <div className='right-items'>

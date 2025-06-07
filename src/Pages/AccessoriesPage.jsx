@@ -6,18 +6,18 @@ function Accessories() {
         <Navbar />
         <section id="main">
         <div className='Clothing-container'>
-                    <h1 className='Clothing-title'>Accessories</h1>
+                    <h1 className='Clothing-title'> Fashion Accessories</h1>
                     <div className='Shirt-container'>
-                        <h1 className='proc-title'>Shirts</h1>
+                        <h1 className='proc-title'>Hats</h1>
                     </div>
                     <div className='Pants-container'>
-                    <h1 className='proc-title'>Pants</h1>
+                    <h1 className='proc-title'>Sun Glasses</h1>
                     </div>
                     <div className='Jacket-container'>
-                    <h1 className='proc-title'>Jackets</h1>
+                    <h1 className='proc-title'>Watches</h1>
                     </div>
                     <div className='Shoe-container'>
-                    <h1 className='proc-title'>Shoes</h1>
+                    <h1 className='proc-title'>Necklaces</h1>
                     </div>
                 </div>
         </section>
