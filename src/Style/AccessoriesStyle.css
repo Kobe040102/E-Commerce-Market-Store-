@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.product-img {
+    border: 2px solid black;
+    height: 35vh;
+}
+
