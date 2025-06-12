@@ -3,8 +3,23 @@
     margin: 0px;
 }
 
+.Acess-container {
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+}
+
 .product-img {
     border: 2px solid black;
     height: 35vh;
 }
+
+.sec-proc {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    margin-right:50px;
+}
+
 
